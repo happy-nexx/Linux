@@ -1,0 +1,18 @@
+Day4
+Execute the following commands after creating the directory and file
+NB: Remember to update the steps you took
+
+ls -la /tmp/xfusioncorp.sh 
+sudo chmod 555 /tmp/xfusioncorp.sh 
+ls -la /tmp/xfusioncorp.sh 
+
+
+Solution
+I used "pwd" command to to ensure i was in my Linux directory
+I created a directory called "tmp" using the mkdir commands
+I cd into the "tmp" directory using the cd command and created a file xfusioncorp.sh using the touch command
+I used the la -la command to make sure the file xfusioncorp.sh was created in the directory
+I used la -la command again to verify the permission for the xfusioncorp.sh file
+I used sudo chmod 555 command to give read and execute permissions to owner, group and others.
+I used the la -la command to ensure the permissions reflected
+ 
